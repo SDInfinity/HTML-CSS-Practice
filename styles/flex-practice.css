@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-weight: bold;
+    color:white;
+    margin-left: 10px;
+}
+
+.parent
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(152, 104, 184);
+    width: 600px;
+
+}
+
+button{
+    color: white;
+    border-radius: 2px;
+    margin: 10px;
+    width: 100px;
+    background-color:  rgb(152, 104, 184);
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.search
+{
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+    width: 350px;
+}

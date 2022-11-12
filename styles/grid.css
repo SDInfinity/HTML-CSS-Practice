@@ -1,0 +1,95 @@
+body
+{
+    padding-bottom: 20px;
+}
+
+
+.parent-1
+{
+    display: grid;
+    grid-template-columns: 100px 100px;            /*2 columns each 100px wide*/
+   
+}
+
+.parent-2
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;            
+    margin-top: 30px;
+}
+
+.parent-3
+{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin-top: 30px;
+}
+
+.parent-4
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 30px;
+}
+
+.parent-5
+{
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    column-gap: 20px;
+    row-gap: 40px;
+    margin-top: 30px;
+}
+
+.div-1
+{
+    background-color: lightblue;
+}
+
+.div-2
+{
+    background-color: lightpink;
+}
+
+.div-3
+{
+    background-color: lightgreen;
+}
+
+.div-4
+{
+    background-color: lightblue;
+}
+
+.div-5
+{
+    background-color: lightpink;
+}
+
+.div-6
+{
+    background-color: lightgreen;
+}
+
+.div-4,.div-5,.div-6,.div-7,.div-8,.div-9
+{
+    height: 100px;
+    display: grid;
+    place-items: center;
+}
+
+.div-7
+{
+    background-color: lightcoral;
+}
+
+.div-8
+{
+    background-color: lightgray;
+}
+
+.div-9
+{
+    background-color: lightsalmon;
+}
+

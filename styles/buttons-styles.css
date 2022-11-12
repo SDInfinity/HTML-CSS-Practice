@@ -1,0 +1,94 @@
+.subs-btn
+{
+    background-color: rgb(200,0,0);
+    color: white;
+    border: none;
+    padding: 10px 16px ;
+    border-radius: 2px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.subs-btn:hover
+{
+    opacity: 0.8;
+}
+.subs-btn:active
+{
+    opacity: 0.5;
+}
+
+.join-btn
+{
+    background-color: white; 
+    border-color: rgb(41, 118, 211);
+    border-style: solid;                     /*solid color all around*/
+    border-width: 1.5px;
+    border-radius: 2px;
+    color: rgb(24, 96, 185);
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join-btn:hover              /*pseudo class*/
+{
+    background-color: rgb(41, 118, 211);
+    color:white;
+}
+
+.join-btn:active
+{
+    opacity: 0.8;
+}
+
+.tweet-btn
+{
+    background-color: rgb(29, 155, 240);
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    padding: 7.5px 15px; 
+    font-weight: bold;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.tweet-btn:hover 
+{
+    box-shadow: 3px 5px 8px rgba(0,0,0,0.15);
+}
+.amzn-btn
+{
+    background-color: rgb(255, 216, 20);
+    border-style: none;
+    border-radius: 20px;
+    color: black;
+    padding: 8px 30px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: font-weight 0.15s;
+}
+
+.amzn-btn:hover
+{
+    font-weight: bold;
+}
+
+.linkdin-btn
+{
+    background-color: rgb(29,102,194);
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 28px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.linkdin-btn:hover
+{
+    opacity: 0.8;
+}

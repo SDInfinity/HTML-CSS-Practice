@@ -1,0 +1,29 @@
+
+.profile
+{
+    width: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.text
+{
+    width: 200px;
+    border-style: none;
+    vertical-align: middle;
+    
+}
+
+.tweet-btn
+{
+    color:white;
+    background-color: rgb(29, 155, 240);
+    border-style: none;
+    padding: 7.5px 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    vertical-align: middle;
+    cursor:pointer;
+}

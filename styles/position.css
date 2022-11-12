@@ -1,0 +1,76 @@
+body{
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 42px;
+    padding-left: 44px;
+}
+
+.header
+{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+}
+.abs
+{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background-color: red;
+    color: white;
+   
+}
+
+.sidebar
+{
+    background-color: lightgreen;
+    color: black;
+    width: 100px;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+}
+
+button{
+    position: absolute;
+    top: 0;
+    right:0;
+}
+.first
+{
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    margin-left: 47px;
+    position: relative;
+}
+
+.second
+{
+    background-color: lightpink;
+    height: 200px;
+    width: 200px;
+    margin-left: 47px;
+    position: relative;
+}
+
+
+    .abs-1
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: red;
+    color: white;
+}
+
+

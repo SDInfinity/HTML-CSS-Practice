@@ -1,0 +1,48 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1
+{
+    font-weight: lighter;
+}
+input{
+    padding:10px 8px;
+    border-style: none;
+    background-color: rgb(219, 219, 219);
+    color: rgb(56, 55, 55);
+    width: 220px;
+
+}
+
+button{
+    padding: 10px 10px;
+    border-style: none;
+}
+.text-1
+{
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+.text-2
+{
+    display: block;
+    margin-bottom: 30px;
+}
+.request
+{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.schedule
+{
+    margin-left: 8px;
+    background-color: rgb(219, 219, 219);
+    color: black;
+    cursor: pointer;
+}
+

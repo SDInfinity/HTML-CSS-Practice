@@ -1,0 +1,72 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p{
+    margin-top:0;
+    margin-bottom: 0;
+}
+.parent
+{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.05);
+    width: 350px;
+}
+
+.upper
+{
+    display: flex;
+}
+
+.upper p{
+    font-size: 12px;
+    opacity: 0.3;
+    font-weight: 600;
+}
+
+.lower
+{
+    display: flex;
+    flex-direction: row;
+    width: 498px;
+    margin-top: 20px;
+}
+
+.logo
+{
+    height: 40px;
+}
+.brand-name
+{
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.description
+{
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.paragraphs
+{
+    margin-left: 15px;
+}
+
+.text
+{
+    font-size: 12px;
+    color: grey;
+}
+
+.time
+{
+    font-size: 12px;
+    color: grey;
+    font-weight: 510;
+}
